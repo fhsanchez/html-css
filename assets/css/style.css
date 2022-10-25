@@ -1,0 +1,301 @@
+/* Resetea estilos  */
+* {
+    margin: 0px;
+    padding: 0px;    
+    font-family: sans-serif;
+    font-style :normal;    
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    width: 1000px;
+    height: 50px;
+    margin-top: 10px;
+
+}
+
+.caja_logo
+{
+    display: flex;
+    align-items: center;    
+}
+
+.caja_logo>h1{
+    
+    font-size: 36px;
+    margin-left: 10px;;
+}
+
+.carrito{
+    width: 40px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.logo{    
+    background-color: aqua;    
+}
+
+.logo>img{
+        width: 40px;
+}
+
+/* Buscador */
+.search{
+    width:575px;
+    height: 25px;
+    display: flex;
+    border-radius: 60px;
+    border: 1px solid   #7d7d7e;
+}
+
+.search>input{
+    width: 580px;
+    margin-left: 10px;
+    border-style: none;
+}
+
+.search>input:focus{
+    outline: none;
+}
+
+.search>img{
+    width:20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Menu principal */
+.header{   
+    
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.nav{    
+    width: 1000px;
+    height: 30px;    
+    margin-top: 20px;
+    display: flex;
+    text-align: left;    
+}
+
+.nav-links{  
+    width: 340px;    
+    display: flex;
+     flex-direction:row;
+     justify-content:space-between;
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+    width: 100px;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 80px;
+}
+
+.botones{
+    text-decoration: none; 
+    color: black;
+}
+
+/* Estilos contenedor del sitio */
+.container{   
+    
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-content:space-around;
+}
+
+.linea{
+    width: 1000px;   
+    border-bottom: 3px solid  #7d7d7e;
+}
+
+
+.container>h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.container>section.titulo{
+    width: 1000px;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: nowrap;
+    font-size: 20px;     
+}
+
+.container>section.titulo>div{
+    margin-right: 10px;
+    text-align: right;
+}
+
+
+/* Estilos para imagenes principales */
+.principal{        
+    width: 1000px;
+    display: flex;   
+}
+
+.principal>article{
+    height: 280px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    vertical-align: top;
+   
+}
+
+.col_1{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.col_1>p{
+    color: white;
+    font-weight: bold;
+    font-size: 26px;;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.discover{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:30px;
+}
+
+.discover>span{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.arrow-light{
+    width: 40px;
+}
+
+/*
+.col_2{
+   
+}
+*/
+
+.col_2__img{
+    width: 335px;
+    height: inherit;   
+}
+
+.col_3
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.col_3>img{
+    margin-bottom: 10px;
+    
+}
+
+.aloe{    
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    width: 326px;
+    height: 50px;
+    background-color: aqua;
+}
+
+.aloe>span{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;    
+}
+
+.arrow-light{
+    width: 40px;
+}
+
+.preview>div{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    height: 180px;  
+    margin-top: 20px;
+    background-color: rgb(174, 238, 238);
+}
+
+.preview>div>img{
+    width: 120px;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+.footer{
+    width: 1000px;
+    height: 60px;
+    bottom: 0px;
+    position: fixed;
+    font-size: 16px;    
+    display: flex;
+    justify-content: space-around;    
+    align-items: center;
+    background-color:  #dbd7d3; 
+    border: 3px solid  #7d7d7e;
+}
+
+.footer>article>img{
+    width: 64px;
+}
+.footer>article>p{
+    width: 600px;
+}
+
+.footer>article>p>a{
+    color: #4b89dd;
+}
+
+.f_button>input{
+    width: 100px;
+    height: 30px;;
+    background-color:aqua; ;
+    color: white;
+    font-weight: bold;    
+    cursor: pointer;
+}
+
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
